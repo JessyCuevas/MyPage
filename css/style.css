@@ -76,9 +76,34 @@ html {
     padding: 10px;
 }
 
+.none{
+    display: table-row;
+}
+
+.mb{
+    background-image: (https://dummyimage.com/1200X200/#cccccc);
+}
+
+.icon{
+    visibility: hidden;}
+
 .footer{
         background-color: #3e3e3e;
     color: #ffffff;
     padding: 4% 50%; 
     height: 70px;}
 
+@media screen  and (max-width: 780px){
+  
+ .icon{
+    visibility: visible; }
+
+.none{
+    display: none;}
+
+.mb{
+    background-image: url(src="https://dummyimage.com/200X200/#cccccc");
+}
+
+
+ }
